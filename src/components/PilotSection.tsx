@@ -18,8 +18,9 @@ const PilotSection = () => (
         </h2>
         <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
           We are seeking regional health partners globally for a high-impact
-          pilot program (10,000 – 50,000 citizen cohort) to validate adherence
-          uplift in Colorectal, Breast, or Cervical cancer screenings.
+          pilot program (citizen cohort of approximately 10,000) to validate
+          adherence uplift, prioritising Colorectal cancer screening
+          (with Breast and Cervical available as additional examples).
         </p>
       </div>
 
@@ -31,6 +32,9 @@ const PilotSection = () => (
           >
             <s.icon className="w-6 h-6 text-teal mx-auto mb-3" />
             <div className="text-2xl md:text-3xl font-bold text-navy">{s.value}</div>
+            {s.sub && (
+              <div className="mt-1 text-xs text-muted-foreground">{s.sub}</div>
+            )}
             <div className="mt-2 text-xs font-medium text-muted-foreground uppercase tracking-wide">
               {s.label}
             </div>
@@ -53,11 +57,19 @@ const PilotSection = () => (
             linked directly to the verified percentage-point uplift in
             participation above your current baseline.
           </p>
-          <div className="mt-6 inline-flex items-center gap-3 rounded-lg bg-white/10 backdrop-blur px-5 py-3 border border-white/20">
-            <TrendingUp className="w-5 h-5 text-teal" />
-            <span className="text-sm font-medium">
-              Targeting a <strong className="text-white">+15-20% relative increase</strong> in screening adherence.
-            </span>
+          <div className="mt-6 grid sm:grid-cols-2 gap-3">
+            <div className="inline-flex items-center gap-3 rounded-lg bg-white/10 backdrop-blur px-5 py-3 border border-white/20">
+              <TrendingUp className="w-5 h-5 text-teal" />
+              <span className="text-sm font-medium">
+                Mild scenario: <strong className="text-white">+3–5%</strong> uplift
+              </span>
+            </div>
+            <div className="inline-flex items-center gap-3 rounded-lg bg-white/10 backdrop-blur px-5 py-3 border border-white/20">
+              <TrendingUp className="w-5 h-5 text-teal" />
+              <span className="text-sm font-medium">
+                High upside: <strong className="text-white">+10–15%</strong> uplift
+              </span>
+            </div>
           </div>
         </div>
       </div>
