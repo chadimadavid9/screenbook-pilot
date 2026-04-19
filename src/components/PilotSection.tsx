@@ -1,9 +1,9 @@
 import { TrendingUp, Users, Target } from "lucide-react";
 
 const stats = [
-  { icon: Users, label: "Citizen Cohort", value: "10K – 50K" },
-  { icon: Target, label: "Screening Focus", value: "Colorectal · Breast · Cervical" },
-  { icon: TrendingUp, label: "Adherence Uplift Target", value: "+15–20%" },
+  { icon: Users, label: "Citizen Cohort", value: "~10,000" },
+  { icon: Target, label: "Primary Screening Focus", value: "Colorectal", sub: "(also Breast, Cervical)" },
+  { icon: TrendingUp, label: "Adherence Uplift Scenarios", value: "+3–5% / +10–15%", sub: "Mild / High upside" },
 ];
 
 const PilotSection = () => (
