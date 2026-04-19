@@ -5,20 +5,36 @@ const HeroSection = () => (
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
       <div className="grid lg:grid-cols-2 gap-12 items-center">
         <div className="animate-fade-in-up">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy leading-tight tracking-tight">
-            Digital Logistics for Cancer Screening Adherence.
+          <span className="inline-block px-3 py-1 rounded-full bg-teal-light text-teal text-xs font-semibold tracking-wide uppercase mb-5">
+            Digital Logistics for Public Health
+          </span>
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy leading-[1.1] tracking-tight">
+            We build the digital logistics engine that bridges the gap between public health availability and citizen participation.
           </h1>
-          <p className="mt-6 text-lg md:text-xl text-muted-foreground leading-relaxed max-w-xl">
-            Transforming regional health outcomes by moving from paper-based
-            invitations to intelligent, nudge-led digital engagement.
+          <p className="mt-6 text-xl md:text-2xl text-teal font-semibold leading-snug">
+            Better Adherence. Earlier Detection. Massive Savings.
           </p>
-          <a
-            href="#pilot"
-            className="mt-8 inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-sm hover:opacity-90 transition-opacity"
-          >
-            Explore the Pilot
-            <span aria-hidden>→</span>
-          </a>
+          <p className="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
+            Current public health outreach is stuck in the past. We replace
+            one-size-fits-all paper-based notifications with an intelligent
+            digital engine designed to solve the 'last mile' of citizen
+            engagement.
+          </p>
+          <div className="mt-8 flex flex-wrap gap-3">
+            <a
+              href="#contact"
+              className="inline-flex items-center gap-2 rounded-lg bg-primary px-6 py-3 text-sm font-semibold text-primary-foreground shadow-sm hover:opacity-90 transition-opacity"
+            >
+              Request a Briefing
+              <span aria-hidden>→</span>
+            </a>
+            <a
+              href="#engine"
+              className="inline-flex items-center gap-2 rounded-lg border border-border bg-background px-6 py-3 text-sm font-semibold text-navy hover:border-teal hover:text-teal transition-colors"
+            >
+              Explore the Engine
+            </a>
+          </div>
         </div>
 
         <div className="flex justify-center lg:justify-end animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
