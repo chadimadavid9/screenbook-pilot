@@ -1,6 +1,4 @@
-import { ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone, Lightbulb } from "lucide-react";
 import phoneMockup from "@/assets/phone-mockup.png";
-import screenbookLogo from "@/assets/screenbook-logo-teal.png";
 
 const HeroSection = () => (
   <section className="pt-28 pb-16 md:pt-36 md:pb-24">
@@ -17,48 +15,9 @@ const HeroSection = () => (
             Better Adherence. Earlier Detection. Massive Savings.
           </p>
 
-          <div className="mt-8 max-w-xl">
-            <div className="rounded-xl border border-teal/30 bg-teal-light p-6 shadow-sm">
-              <div className="flex items-center gap-2 mb-3">
-                <Lightbulb className="w-4 h-4 text-teal" />
-                <span className="text-xs font-semibold uppercase tracking-wide text-teal">
-                  The Challenge
-                </span>
-              </div>
-              <p className="text-sm md:text-base text-navy/80 leading-relaxed border-l-2 border-teal/40 pl-4 mb-5">
-                Europe invests <span className="font-semibold">billions</span> in cancer screening programmes, yet participation remains limited by outdated, one-size-fits-all outreach. Postal letters alone are no longer effective in a digital world.
-              </p>
-              <div className="flex items-center gap-2 mb-3">
-                <img src={screenbookLogo} alt="ScreenBook" className="w-4 h-4 object-contain" />
-                <span className="text-xs font-semibold uppercase tracking-wide text-teal">
-                  The Solution
-                </span>
-              </div>
-              <p className="text-sm md:text-base text-navy leading-relaxed mb-4">
-                <span className="font-semibold text-teal">ScreenBook</span> is an intelligent orchestration platform that enables health authorities to deliver targeted communication, <span className="font-semibold">improving engagement and increasing screening uptake at scale.</span>
-              </p>
-              <div className="flex flex-wrap gap-1.5">
-                <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
-                  <ShieldCheck className="w-3 h-3 text-teal" /> GDPR-compliant
-                </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
-                  <Layers className="w-3 h-3 text-teal" /> Multi-channel
-                </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
-                  <Brain className="w-3 h-3 text-teal" /> Behaviourally informed
-                </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
-                  <Target className="w-3 h-3 text-teal" /> Targeted outreach
-                </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
-                  <Smartphone className="w-3 h-3 text-teal" /> Digital-first
-                </span>
-                <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
-                  <TrendingUp className="w-3 h-3 text-teal" /> Scalable uptake
-                </span>
-              </div>
-            </div>
-          </div>
+          <p className="mt-6 text-base md:text-lg text-navy/80 leading-relaxed max-w-xl">
+            Europe invests <span className="font-semibold">billions</span> in cancer screening programmes, yet participation remains limited by outdated, one-size-fits-all outreach. Postal letters alone are no longer effective in a digital world. <span className="font-semibold text-teal">ScreenBook</span> is an intelligent, GDPR-compliant orchestration platform that enables health authorities to deliver targeted, multi-channel, behaviourally informed communication, improving engagement and increasing screening uptake at scale.
+          </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
             <a
