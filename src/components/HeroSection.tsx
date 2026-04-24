@@ -28,7 +28,7 @@ const HeroSection = () => (
                 </span>
               </div>
               <p className="text-sm md:text-base text-navy leading-relaxed mb-4">
-                <span className="font-semibold text-teal">ScreenBook</span> is an intelligent orchestration platform that enables health authorities to deliver targeted communication — improving engagement and increasing screening uptake at scale.
+                <span className="font-semibold text-teal">ScreenBook</span> is an intelligent orchestration platform that enables health authorities to deliver targeted communication, <span className="font-semibold">improving engagement and increasing screening uptake at scale.</span>
               </p>
               <div className="flex flex-wrap gap-1.5">
                 <span className="inline-flex items-center gap-1 rounded-full bg-background px-2.5 py-1 text-[11px] font-medium text-navy border border-teal/20">
