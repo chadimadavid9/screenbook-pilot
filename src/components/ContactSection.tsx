@@ -32,7 +32,7 @@ const ContactSection = () => {
             Strategic Briefing
           </span>
           <h2 className="text-3xl md:text-4xl font-bold text-navy tracking-tight">
-            Request a Technical Briefing.
+            Request a Technical Briefing
           </h2>
           <p className="mt-4 text-muted-foreground text-lg max-w-2xl mx-auto">
             Connect with us to discuss technical integration and regional

@@ -49,7 +49,7 @@ const PilotSection = () => (
             Success-Fee Model
           </span>
           <h3 className="text-2xl md:text-3xl font-bold mb-4">
-            Zero-Risk Performance Model.
+            Zero-Risk Performance Model
           </h3>
           <p className="text-white/80 leading-relaxed text-base md:text-lg">
             Our model aligns our success with your public health targets. We
