@@ -3,7 +3,7 @@ import phoneMockup from "@/assets/phone-mockup.png";
 const HeroSection = () => (
   <section className="pt-28 pb-16 md:pt-36 md:pb-24">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="grid lg:grid-cols-[1.55fr_1fr] gap-8 xl:gap-12 items-center">
+      <div className="grid lg:grid-cols-[1.9fr_1fr] gap-6 xl:gap-10 items-center">
         <div className="animate-fade-in-up lg:max-w-none">
           <span className="inline-block px-3 py-1 rounded-full bg-teal-light text-teal text-xs font-semibold tracking-wide uppercase mb-5">
             Digital Logistics for Public Health
