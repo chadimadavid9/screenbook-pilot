@@ -17,7 +17,7 @@ const HeroSection = () => (
           <p className="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
             Current public health outreach is stuck in the past. We replace
             one-size-fits-all paper-based notifications with an intelligent
-            digital engine designed to solve the 'last mile' of citizen
+            digital engine designed to solve the ‘last mile’ of citizen
             engagement.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
@@ -40,7 +40,7 @@ const HeroSection = () => (
         <div className="flex justify-center lg:justify-end animate-fade-in-up" style={{ animationDelay: "0.2s" }}>
           <img
             src={phoneMockup}
-            alt="Smartphone showing a personalized SMS screening notification"
+            alt="Smartphone showing a personalised SMS screening notification"
             className="w-72 md:w-80 lg:w-96 drop-shadow-2xl"
             width={512}
             height={768}
