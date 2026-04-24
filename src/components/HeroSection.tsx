@@ -15,10 +15,10 @@ const HeroSection = () => (
             Better Adherence. Earlier Detection. Massive Savings.
           </p>
 
-          <p className="mt-6 text-base md:text-lg text-navy/80 leading-relaxed max-w-xl lg:max-w-2xl">
+          <p className="mt-6 text-base md:text-lg text-navy/80 leading-relaxed max-w-xl lg:max-w-3xl">
             Europe invests <span className="font-semibold">billions</span> in cancer screening programmes, yet participation remains limited by outdated, one-size-fits-all outreach. Postal letters alone are no longer effective in a digital world.
           </p>
-          <p className="mt-4 text-base md:text-lg text-navy/80 leading-relaxed max-w-xl lg:max-w-2xl">
+          <p className="mt-4 text-base md:text-lg text-navy/80 leading-relaxed max-w-xl lg:max-w-3xl">
             <span className="font-semibold text-teal">ScreenBook</span> is an intelligent, GDPR-compliant digital logistics platform that enables health authorities to deliver targeted, multi-channel, behaviourally informed communication, <span className="font-semibold">improving engagement and increasing screening uptake at scale</span>.
           </p>
 
