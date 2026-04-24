@@ -26,7 +26,7 @@ const NudgeSection = () => (
           Engagement Engineering
         </span>
         <h2 className="text-3xl md:text-4xl font-bold text-navy tracking-tight">
-          Powered by Behavioural Science, Not Just Digitalisation.
+          Powered by Behavioural Science, Not Just Digitalisation
         </h2>
         <p className="mt-5 text-muted-foreground text-lg leading-relaxed">
           The barrier to screening isn't a lack of technology; it is behavioural
