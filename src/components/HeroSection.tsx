@@ -1,4 +1,4 @@
-import { Sparkles, ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone, AlertCircle } from "lucide-react";
+import { Sparkles, ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone, Lightbulb } from "lucide-react";
 import phoneMockup from "@/assets/phone-mockup.png";
 
 const HeroSection = () => (
@@ -19,7 +19,7 @@ const HeroSection = () => (
           <div className="mt-8 max-w-xl">
             <div className="rounded-xl border border-teal/30 bg-teal-light p-6 shadow-sm">
               <div className="flex items-center gap-2 mb-3">
-                <AlertCircle className="w-4 h-4 text-teal" />
+                <Lightbulb className="w-4 h-4 text-teal" />
                 <span className="text-xs font-semibold uppercase tracking-wide text-teal">
                   The Challenge
                 </span>
