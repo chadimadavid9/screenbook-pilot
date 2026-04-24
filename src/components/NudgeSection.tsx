@@ -29,10 +29,10 @@ const NudgeSection = () => (
           Powered by Behavioral Science, Not Just Digitalization.
         </h2>
         <p className="mt-5 text-muted-foreground text-lg leading-relaxed">
-          The barrier to screening isn't a lack of technology — it is behavioral
-          inertia. We utilize evidence-based <strong className="text-navy">Nudge Theory</strong> to
+          The barrier to screening isn't a lack of technology; it is behavioural
+          inertia. We utilise evidence-based <strong className="text-navy">Nudge Theory</strong> to
           move citizens from <em>notified</em> to <em>screened</em> through
-          psychological optimization of the entire engagement path.
+          psychological optimisation of the entire engagement path.
         </p>
       </div>
 
