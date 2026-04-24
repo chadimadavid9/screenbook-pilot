@@ -1,4 +1,4 @@
-import { Sparkles, ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone } from "lucide-react";
+import { Sparkles, ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone, AlertCircle } from "lucide-react";
 import phoneMockup from "@/assets/phone-mockup.png";
 
 const HeroSection = () => (
@@ -18,13 +18,19 @@ const HeroSection = () => (
 
           <div className="mt-8 max-w-xl">
             <div className="rounded-xl border border-teal/30 bg-teal-light p-6 shadow-sm">
-              <p className="text-sm md:text-base text-navy/80 leading-relaxed italic border-l-2 border-teal/40 pl-4 mb-5">
-                Europe invests <span className="font-semibold not-italic">billions</span> in cancer screening programmes, yet participation remains limited by outdated, one-size-fits-all outreach. Postal letters alone are no longer effective in a digital world.
+              <div className="flex items-center gap-2 mb-3">
+                <AlertCircle className="w-4 h-4 text-teal" />
+                <span className="text-xs font-semibold uppercase tracking-wide text-teal">
+                  The Challenge
+                </span>
+              </div>
+              <p className="text-sm md:text-base text-navy/80 leading-relaxed border-l-2 border-teal/40 pl-4 mb-5">
+                Europe invests <span className="font-semibold">billions</span> in cancer screening programmes, yet participation remains limited by outdated, one-size-fits-all outreach. Postal letters alone are no longer effective in a digital world.
               </p>
               <div className="flex items-center gap-2 mb-3">
                 <Sparkles className="w-4 h-4 text-teal" />
                 <span className="text-xs font-semibold uppercase tracking-wide text-teal">
-                  What We Do
+                  The Solution
                 </span>
               </div>
               <p className="text-sm md:text-base text-navy leading-relaxed mb-4">
