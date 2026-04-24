@@ -69,7 +69,7 @@ const ContactSection = () => {
             className="md:col-span-3 space-y-4 rounded-xl bg-background p-6 md:p-8 shadow-sm border border-border"
           >
             <Input placeholder="Name" required className="bg-background" />
-            <Input placeholder="Organization / Health Authority" required className="bg-background" />
+            <Input placeholder="Organisation / Health Authority" required className="bg-background" />
             <Input type="email" placeholder="Email" required className="bg-background" />
             <Textarea
               placeholder="Briefly describe your region and screening priorities…"

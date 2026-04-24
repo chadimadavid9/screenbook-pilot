@@ -18,7 +18,7 @@ const PilotSection = () => (
         </h2>
         <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
           We are seeking regional health partners globally for a high-impact
-          pilot program (citizen cohort of approximately 10,000) to validate
+          pilot programme (citizen cohort of approximately 10,000) to validate
           adherence uplift, prioritising Colorectal cancer screening
           (with Breast and Cervical available as additional examples).
         </p>

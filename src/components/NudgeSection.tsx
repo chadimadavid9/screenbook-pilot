@@ -8,8 +8,8 @@ const steps = [
   },
   {
     icon: Brain,
-    title: "Behavioral Trigger",
-    desc: "Evidence-based nudges that overcome anxiety, inertia, and procrastination.",
+    title: "Behavioural Trigger",
+    desc: "Evidence-based nudges that overcome anxiety, inertia and procrastination.",
   },
   {
     icon: MousePointerClick,
@@ -26,7 +26,7 @@ const NudgeSection = () => (
           Engagement Engineering
         </span>
         <h2 className="text-3xl md:text-4xl font-bold text-navy tracking-tight">
-          Powered by Behavioral Science, Not Just Digitalization.
+          Powered by Behavioural Science, Not Just Digitalisation.
         </h2>
         <p className="mt-5 text-muted-foreground text-lg leading-relaxed">
           The barrier to screening isn't a lack of technology; it is behavioural

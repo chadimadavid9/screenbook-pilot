@@ -4,12 +4,12 @@ const features = [
   {
     icon: MessageSquare,
     title: "Smart Notifications",
-    desc: "Context-aware SMS and Email workflows that adapt to citizen behavior and regional demographics, ensuring the message is seen and acted upon.",
+    desc: "Context-aware SMS and Email workflows that adapt to citizen behaviour and regional demographics, ensuring the message is seen and acted upon.",
   },
   {
     icon: Route,
     title: "Frictionless Pathways",
-    desc: "Personalized digital landing pages that remove every barrier between receiving a notice and requesting a kit or booking an appointment.",
+    desc: "Personalised digital landing pages that remove every barrier between receiving a notice and requesting a kit or booking an appointment.",
   },
   {
     icon: ShieldCheck,
