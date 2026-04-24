@@ -18,8 +18,8 @@ const PilotSection = () => (
         </h2>
         <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
           We are seeking regional health partners globally for a high-impact
-          pilot programme to validate adherence uplift in Colorectal cancer
-          screening initially, with Breast and Cervical cancer screening
+          pilot programme to validate screening adherence uplift, initially in
+          Colorectal cancer, with Breast and Cervical cancer screening
           programmes to follow.
         </p>
       </div>
