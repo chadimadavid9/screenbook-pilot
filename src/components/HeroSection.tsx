@@ -15,10 +15,13 @@ const HeroSection = () => (
             Better Adherence. Earlier Detection. Massive Savings.
           </p>
           <p className="mt-5 text-base md:text-lg text-muted-foreground leading-relaxed max-w-xl">
-            Current public health outreach is stuck in the past. We replace
-            one-size-fits-all paper-based notifications with an intelligent
-            digital engine designed to solve the ‘last mile’ of citizen
-            engagement.
+            Europe invests billions in cancer screening programmes, yet
+            participation remains limited by outdated, one-size-fits-all
+            outreach. Postal letters alone are no longer effective in a digital
+            world. ScreenBook is an intelligent, GDPR-compliant orchestration
+            platform that enables health authorities to deliver targeted,
+            multi-channel, behaviourally informed communication, improving
+            engagement and increasing screening uptake at scale.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <a
