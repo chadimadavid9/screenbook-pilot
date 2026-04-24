@@ -1,5 +1,6 @@
-import { Sparkles, ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone, Lightbulb } from "lucide-react";
+import { ShieldCheck, Layers, Brain, Target, TrendingUp, Smartphone, Lightbulb } from "lucide-react";
 import phoneMockup from "@/assets/phone-mockup.png";
+import screenbookLogo from "@/assets/screenbook-logo-teal.png";
 
 const HeroSection = () => (
   <section className="pt-28 pb-16 md:pt-36 md:pb-24">
@@ -28,7 +29,7 @@ const HeroSection = () => (
                 Europe invests <span className="font-semibold">billions</span> in cancer screening programmes, yet participation remains limited by outdated, one-size-fits-all outreach. Postal letters alone are no longer effective in a digital world.
               </p>
               <div className="flex items-center gap-2 mb-3">
-                <Sparkles className="w-4 h-4 text-teal" />
+                <img src={screenbookLogo} alt="ScreenBook" className="w-4 h-4 object-contain" />
                 <span className="text-xs font-semibold uppercase tracking-wide text-teal">
                   The Solution
                 </span>
