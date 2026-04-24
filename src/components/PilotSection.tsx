@@ -14,7 +14,7 @@ const PilotSection = () => (
           Global Innovation Pilot Track
         </span>
         <h2 className="text-3xl md:text-4xl font-bold text-navy tracking-tight">
-          A Partner for Visionary Health Authorities.
+          A Partner for Visionary Health Authorities
         </h2>
         <p className="mt-4 text-muted-foreground text-lg leading-relaxed">
           We are seeking regional health partners globally for a high-impact
