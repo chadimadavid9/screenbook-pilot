@@ -9,7 +9,7 @@ const HeroSection = () => (
             Digital Logistics for Public Health
           </span>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-navy leading-[1.1] tracking-tight">
-            The digital logistics engine that bridges the gap between public health availability and citizen participation
+            A digital logistics engine; bridging the gap between public health availability and citizen participation
           </h1>
           <p className="mt-6 text-xl md:text-2xl text-teal font-semibold leading-snug">
             Better Adherence. Earlier Detection. Massive Savings.
