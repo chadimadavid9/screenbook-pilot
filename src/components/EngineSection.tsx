@@ -38,7 +38,7 @@ const EngineSection = () => (
         {features.map((f) => (
           <div
             key={f.title}
-            className="rounded-xl bg-background p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all border border-transparent hover:border-teal-muted"
+            className="rounded-xl bg-background p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all border border-transparent hover:border-teal-muted flex flex-col items-center text-center"
           >
             <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center mb-5">
               <f.icon className="w-6 h-6 text-teal" />
