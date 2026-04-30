@@ -1,4 +1,5 @@
 import { MessageSquare, Route, ShieldCheck } from "lucide-react";
+import Reveal from "@/components/Reveal";
 
 const features = [
   {
@@ -21,7 +22,7 @@ const features = [
 const EngineSection = () => (
   <section id="engine" className="py-16 md:py-24 bg-teal-light">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto text-center mb-14">
+      <Reveal className="max-w-3xl mx-auto text-center mb-14">
         <span className="inline-block px-3 py-1 rounded-full bg-background text-teal text-xs font-semibold tracking-wide uppercase mb-4">
           The Platform
         </span>
@@ -32,12 +33,13 @@ const EngineSection = () => (
           Three integrated layers engineered to deliver measurable adherence
           uplift at population scale.
         </p>
-      </div>
+      </Reveal>
 
       <div className="grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
-        {features.map((f) => (
-          <div
+        {features.map((f, i) => (
+          <Reveal
             key={f.title}
+            delay={i * 120}
             className="rounded-xl bg-background p-7 shadow-sm hover:shadow-lg hover:-translate-y-1 transition-all border border-transparent hover:border-teal-muted flex flex-col items-center text-center"
           >
             <div className="w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center mb-5">
@@ -45,7 +47,7 @@ const EngineSection = () => (
             </div>
             <h3 className="text-xl font-semibold text-navy mb-3">{f.title}</h3>
             <p className="text-muted-foreground leading-relaxed text-sm">{f.desc}</p>
-          </div>
+          </Reveal>
         ))}
       </div>
     </div>

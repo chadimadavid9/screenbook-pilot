@@ -1,4 +1,5 @@
 import { Bell, Brain, MousePointerClick, ArrowRight } from "lucide-react";
+import Reveal from "@/components/Reveal";
 
 const steps = [
   {
@@ -21,7 +22,7 @@ const steps = [
 const NudgeSection = () => (
   <section className="py-16 md:py-24">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto text-center mb-14">
+      <Reveal className="max-w-3xl mx-auto text-center mb-14">
         <span className="inline-block px-3 py-1 rounded-full bg-teal-light text-teal text-xs font-semibold tracking-wide uppercase mb-4">
           Engagement Engineering
         </span>
@@ -34,18 +35,21 @@ const NudgeSection = () => (
           move citizens from <em>notified</em> to <em>screened</em> through
           psychological optimisation of the entire engagement path.
         </p>
-      </div>
+      </Reveal>
 
       <div className="grid md:grid-cols-[1fr_auto_1fr_auto_1fr] gap-6 md:gap-4 items-stretch max-w-5xl mx-auto">
         {steps.map((step, i) => (
           <div key={step.title} className="contents">
-            <div className="rounded-xl border border-border bg-background p-6 md:p-7 shadow-sm hover:shadow-md transition-shadow text-center">
+            <Reveal
+              delay={i * 150}
+              className="rounded-xl border border-border bg-background p-6 md:p-7 shadow-sm hover:shadow-md transition-shadow text-center"
+            >
               <div className="mx-auto w-12 h-12 rounded-lg bg-teal-light flex items-center justify-center mb-4">
                 <step.icon className="w-6 h-6 text-teal" />
               </div>
               <h3 className="font-semibold text-navy text-lg mb-2">{step.title}</h3>
               <p className="text-sm text-muted-foreground leading-relaxed">{step.desc}</p>
-            </div>
+            </Reveal>
             {i < steps.length - 1 && (
               <div className="hidden md:flex items-center justify-center text-teal">
                 <ArrowRight className="w-6 h-6" />

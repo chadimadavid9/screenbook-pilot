@@ -4,6 +4,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 import { Mail } from "lucide-react";
+import Reveal from "@/components/Reveal";
 
 const contacts = [
   { name: "Andrew O'Leary, PhD", email: "andrew@screenbook.health" },
@@ -27,7 +28,7 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-16 md:py-24 bg-teal-light">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-5xl">
-        <div className="text-center mb-12">
+        <Reveal className="text-center mb-12">
           <span className="inline-block px-3 py-1 rounded-full bg-background text-teal text-xs font-semibold tracking-wide uppercase mb-4">
             Strategic Briefing
           </span>
@@ -38,10 +39,10 @@ const ContactSection = () => {
             Connect with us to discuss technical integration and regional
             deployment tailored to your health ecosystem's specific needs.
           </p>
-        </div>
+        </Reveal>
 
         <div className="grid md:grid-cols-5 gap-8 items-start">
-          <div className="md:col-span-2 space-y-4">
+          <Reveal direction="left" className="md:col-span-2 space-y-4">
             <h3 className="text-sm font-semibold uppercase tracking-wide text-navy">
               Direct Contacts
             </h3>
@@ -62,25 +63,27 @@ const ContactSection = () => {
                 </div>
               </a>
             ))}
-          </div>
+          </Reveal>
 
-          <form
-            onSubmit={handleSubmit}
-            className="md:col-span-3 space-y-4 rounded-xl bg-background p-6 md:p-8 shadow-sm border border-border"
-          >
-            <Input placeholder="Name" required className="bg-background" />
-            <Input placeholder="Organisation / Health Authority" required className="bg-background" />
-            <Input type="email" placeholder="Email" required className="bg-background" />
-            <Textarea
-              placeholder="Briefly describe your region and screening priorities…"
-              rows={4}
-              required
-              className="bg-background resize-none"
-            />
-            <Button type="submit" className="w-full" disabled={loading}>
-              {loading ? "Sending…" : "Request Briefing"}
-            </Button>
-          </form>
+          <Reveal direction="right" delay={120} className="md:col-span-3">
+            <form
+              onSubmit={handleSubmit}
+              className="space-y-4 rounded-xl bg-background p-6 md:p-8 shadow-sm border border-border"
+            >
+              <Input placeholder="Name" required className="bg-background" />
+              <Input placeholder="Organisation / Health Authority" required className="bg-background" />
+              <Input type="email" placeholder="Email" required className="bg-background" />
+              <Textarea
+                placeholder="Briefly describe your region and screening priorities…"
+                rows={4}
+                required
+                className="bg-background resize-none"
+              />
+              <Button type="submit" className="w-full" disabled={loading}>
+                {loading ? "Sending…" : "Request Briefing"}
+              </Button>
+            </form>
+          </Reveal>
         </div>
       </div>
     </section>
