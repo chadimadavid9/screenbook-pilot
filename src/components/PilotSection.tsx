@@ -1,4 +1,5 @@
 import { TrendingUp, Users, Target } from "lucide-react";
+import Reveal from "@/components/Reveal";
 
 const stats = [
   { icon: Users, label: "Citizen Cohort", value: "~10,000" },
@@ -9,7 +10,7 @@ const stats = [
 const PilotSection = () => (
   <section id="pilot" className="py-16 md:py-24">
     <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-      <div className="max-w-3xl mx-auto text-center mb-12">
+      <Reveal className="max-w-3xl mx-auto text-center mb-12">
         <span className="inline-block px-3 py-1 rounded-full bg-teal-light text-teal text-xs font-semibold tracking-wide uppercase mb-4">
           Global Innovation Pilot Track
         </span>
@@ -22,12 +23,13 @@ const PilotSection = () => (
           Colorectal cancer, with Breast and Cervical cancer screening
           programmes to follow.
         </p>
-      </div>
+      </Reveal>
 
       <div className="grid sm:grid-cols-3 gap-5 mb-10 max-w-5xl mx-auto">
-        {stats.map((s) => (
-          <div
+        {stats.map((s, i) => (
+          <Reveal
             key={s.label}
+            delay={i * 120}
             className="rounded-xl border border-border bg-background p-6 text-center shadow-sm"
           >
             <s.icon className="w-6 h-6 text-teal mx-auto mb-3" />
@@ -38,11 +40,11 @@ const PilotSection = () => (
             <div className="mt-2 text-xs font-medium text-muted-foreground uppercase tracking-wide">
               {s.label}
             </div>
-          </div>
+          </Reveal>
         ))}
       </div>
 
-      <div className="max-w-4xl mx-auto rounded-2xl bg-navy text-white p-8 md:p-10 shadow-xl relative overflow-hidden">
+      <Reveal className="max-w-4xl mx-auto rounded-2xl bg-navy text-white p-8 md:p-10 shadow-xl relative overflow-hidden">
         <div className="absolute top-0 right-0 w-64 h-64 bg-teal/20 rounded-full blur-3xl -translate-y-32 translate-x-32" aria-hidden />
         <div className="relative">
           <span className="inline-block px-3 py-1 rounded-full bg-teal text-white text-xs font-semibold tracking-wide uppercase mb-4">
@@ -72,7 +74,7 @@ const PilotSection = () => (
             </div>
           </div>
         </div>
-      </div>
+      </Reveal>
     </div>
   </section>
 );
